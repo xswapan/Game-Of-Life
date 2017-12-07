@@ -21,6 +21,7 @@ class InputBox extends Component {
         type="number"
         id={id}
         name={name}
+        defaultValue={0}
         onChange={this.handleChange} />
     );
   }
