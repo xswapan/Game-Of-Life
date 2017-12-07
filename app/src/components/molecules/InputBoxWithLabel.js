@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import InputBox from '../atoms/InputBox';
 
+/**
+* Molecule for input type number and label text
+*/
 class InputBoxWithLabel extends Component {
 
   constructor() {

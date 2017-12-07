@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+/**
+* Atom for input type button
+*/
 class SubmitButton extends Component {
 
   constructor() {

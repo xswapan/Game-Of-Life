@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+/**
+* Atom for input type number
+*/
 class InputBox extends Component {
 
   constructor() {

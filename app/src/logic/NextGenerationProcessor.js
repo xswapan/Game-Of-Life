@@ -1,3 +1,9 @@
+/**
+* Generates an empty array with same length as previous grid
+*
+* @param grid previous state of grid
+* @return new empty grid for next generation
+*/
 const newGridGenerator = (grid) => {
   let newGrid = new Array(grid.length);
 
@@ -8,6 +14,13 @@ const newGridGenerator = (grid) => {
   return newGrid;
 }
 
+/**
+* Generates next state for a cell
+*
+* @param aliveNeighbourCount number of alive neighbours
+* @param value current status of the cell
+* @return new state of cell
+*/
 const cellStateProcessor = (aliveNeighbourCount, value) => {
   let presentStatus = value;
 
@@ -30,6 +43,12 @@ const cellStateProcessor = (aliveNeighbourCount, value) => {
   return presentStatus;
 }
 
+/**
+* Generates next generations of grid
+*
+* @param grid 2d array of previous grid state
+* @return 2d array of next grid state
+*/
 const generator = (grid) => {
   let newGrid = newGridGenerator(grid);
 

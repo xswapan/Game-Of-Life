@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import GridRow from '../molecules/GridRow';
 
+/**
+* Organism responsible for rendering grid table
+*/
 class Grid extends Component {
 
   render() {

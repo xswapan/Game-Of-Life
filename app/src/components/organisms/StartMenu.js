@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import InputBoxWithLabel from '../molecules/InputBoxWithLabel';
 import SubmitButton from '../atoms/SubmitButton';
 
+/**
+* Organism responsible for rendering start menu input form
+*/
 class StartMenu extends Component {
 
   constructor() {

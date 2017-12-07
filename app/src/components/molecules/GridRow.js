@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+/**
+* Molecule for table row which consists more than one of table columns
+*/
 class GridRow extends Component {
 
   render() {
